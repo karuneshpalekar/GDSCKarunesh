@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph.xml"
+    app:startDestination="@id/mainFragment">
+
+    <fragment
+        android:id="@+id/bookAppointmentFragment"
+        android:name="com.karunesh.gdsckarunesh.fragment.BookAppointmentFragment"
+        android:label="fragment_book_appointment"
+        tools:layout="@layout/fragment_book_appointment" >
+        <action
+            android:id="@+id/action_bookAppointmentFragment_to_viewCreatedSlotsFragment"
+            app:destination="@id/viewCreatedSlotsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.karunesh.gdsckarunesh.fragment.MainFragment"
+        android:label="fragment_main"
+        tools:layout="@layout/fragment_main" >
+        <action
+            android:id="@+id/action_mainFragment_to_bookAppointmentFragment"
+            app:destination="@id/bookAppointmentFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_shopDetailsFragment"
+            app:destination="@id/shopDetailsFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_customerDetailsFragment"
+            app:destination="@id/customerDetailsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/customerDetailsFragment"
+        android:name="com.karunesh.gdsckarunesh.fragment.CustomerDetailsFragment"
+        android:label="CustomerDetailsFragment" />
+    <fragment
+        android:id="@+id/shopDetailsFragment"
+        android:name="com.karunesh.gdsckarunesh.fragment.ShopDetailsFragment"
+        android:label="ShopDetailsFragment" />
+    <fragment
+        android:id="@+id/viewCreatedSlotsFragment"
+        android:name="com.karunesh.gdsckarunesh.fragment.ViewCreatedSlotsFragment"
+        android:label="ViewCreatedSlotsFragment" />
+</navigation>
