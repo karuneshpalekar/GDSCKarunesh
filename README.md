@@ -2,7 +2,7 @@
 
 The following code is part of the application: https://github.com/HeetGutka/Android-Study-Jams 
 
-The application is a scheduling application which helps to book appointments at places of out daily commute.This project is a part of GDSC Organised Event.
+The application is a scheduling application which helps to book appointments at places of out daily commute.This project is a part of GDSC Organised Event.My task of the project being to construct the above code and patch rest of the modules into one complete application.
 
 
 About the following Code :
