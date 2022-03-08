@@ -1,5 +1,5 @@
-# GDSCKarunesh
-### Project For A GOOGLE DEVELOPER STUDENTS CLUB(GDSC-DMCE)
+# GDSCKarunesh 
+#### Teamed with GDSC-DMCE (Google Developer Students Club - Datta Meghe College of Engineering)
 
 The following code is part of the application: https://github.com/HeetGutka/Android-Study-Jams 
 
