@@ -1,4 +1,4 @@
-# GDSCKarunesh 
+# GDSC-Android Study Jams
 #### Teamed with GDSC-DMCE (Google Developer Students Club - Datta Meghe College of Engineering)
 
 The following code is part of the application: https://github.com/HeetGutka/Android-Study-Jams 
